@@ -1,4 +1,7 @@
 # # filter list
+
+
+
 def filter_list(l):
     # return a new list withthe string filtered out
     return [item for item in l if isinstance(item, int)]
@@ -11,6 +14,14 @@ def maskify(cc):
 # mfano used"
 print (maskify('45564636536'))
 print (maskify('123'))
+
+# zoezi
+import math
+def is_square(n):
+    if n < 0:
+        return False
+    return math.sqrt(n)**2==n
+
 
 
 
