@@ -1,26 +1,26 @@
-// // function createPhoneNumber(numbers) {
-// //     let phoneNumber = "(xxx) xxx-xxxx";
+// function createPhoneNumber(numbers) {
+//     let phoneNumber = "(xxx) xxx-xxxx";
   
-//     for (let i = 0; i < numbers.length; i++) {
-//       phoneNumber = phoneNumber.replace('x', numbers[i]);
-//     }
+    for (let i = 0; i < numbers.length; i++) {
+      phoneNumber = phoneNumber.replace('x', numbers[i]);
+    }
   
-//     return phoneNumber;
-//   }
+    return phoneNumber;
   
-//   console.log(createPhoneNumber([0, 7, 2, 0, 9, 5, 3, 3, 3, 1])); // (072) 095-3331
+  
+  console.log(createPhoneNumber([0, 7, 2, 0, 9, 5, 3, 3, 3, 1])); // (072) 095-3331
 
-//   //jaden case
-//   function toJadenCase(str) {
-//     return str
-//       .split(' ')
-//       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-//       .join(' ');
-//   }
+  //jaden case
+  function toJadenCase(str) {
+    return str
+      .split(' ')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+  }
   
-//   // Test case
-//   console.log(toJadenCase("most trees are blue"));
-//   console.log(toJadenCase("how can mirrors be real if our eyes aren't real"));
+  // Test case
+  console.log(toJadenCase("most trees are blue"));
+  console.log(toJadenCase("how can mirrors be real if our eyes aren't real"));
 
   //functional phone number
   function generatePhoneNumber() {
