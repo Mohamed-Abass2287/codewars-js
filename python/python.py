@@ -18,9 +18,9 @@ print (maskify('123'))
 # zoezi
 import math
 def is_square(n):
-    if n < 0:
+    if n < 0: 
         return False
-    return math.sqrt(n)**2==n
+    return math.isqrt(n) ** 2 == n  
 
 
 
