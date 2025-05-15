@@ -23,6 +23,7 @@ def is_square(n):
     return math.isqrt(n) ** 2 == n  
 
 
-
+def open_or_senior(data):
+    
 
 
