@@ -31,5 +31,14 @@ open_or_senior([(45, 2), (60, 8), (33, 5), (58, 6)])
 # triangle test
 def is_triangle(a, b, c):
     result = a + b > c and a + c > b and b + c > a
-    print(result)
+    
+    if result:
+        print(f"Yes! The sides {a}, {b}, and {c} form a valid triangle.")
+    else:
+        print(f"No! The sides {a}, {b}, and {c} do not form a valid triangle.")
+    
     return result
+
+# Example usage
+is_triangle(3, 4, 5)  # Should print a confirmation in the terminal
+
