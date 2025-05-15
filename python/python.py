@@ -22,8 +22,11 @@ def is_square(n):
         return False
     return math.isqrt(n) ** 2 == n  
 
-
+# 15th may 2025
 def open_or_senior(data):
-    
+    result = ["Senior" if age >= 55 and handicap >= 7 else "Open" for age, handicap in data]
+    print(result)
+    return result
 
-
+# Example usage
+open_or_senior([(45, 2), (60, 8), (33, 5), (58, 6)])
