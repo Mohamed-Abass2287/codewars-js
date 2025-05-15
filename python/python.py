@@ -28,7 +28,7 @@ def open_or_senior(data):
 # Example usage
 open_or_senior([(45, 2), (60, 8), (33, 5), (58, 6)])
 
-
+# triangle test
 def is_triangle(a, b, c):
     result = a + b > c and a + c > b and b + c > a
     print(result)
