@@ -42,3 +42,32 @@ def is_triangle(a, b, c):
 # Example usage
 is_triangle(3, 4, 5)  # Should print a confirmation in the terminal
 
+# satoo
+def high_and_low(numbers):
+    #convert the input str into a list of integers
+    num_list =list (map(int,numbers.split()))
+    #find the highest and lowest num
+    return f"{max(num_list)} {min(num_list)}"
+
+# mfano used
+print(high_and_low("8 3 -5 42 -1 0 9 4 7 4 -4 42 -9"))
+
+
+
+# digits solutions
+def dig_pow(n, p):
+    # Convert number to a list of digits
+    digits = [int(d) for d in str(n)]
+    
+    # Compute the sum of digits raised to consecutive powers
+    total = sum(d ** (p + i) for i, d in enumerate(digits))
+    
+    # angalia kama total is divisible by n
+    return total // n if total % n == 0 else -1
+
+# Example usage
+print(dig_pow(89, 1))  # Output: 1
+print(dig_pow(92, 1))  # Output: -1
+print(dig_pow(695, 2)) # Output: 2
+
+   
