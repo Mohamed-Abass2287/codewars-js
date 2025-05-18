@@ -80,3 +80,13 @@ def printer_error(s):
 
 # Example usage
 print(printer_error("aaaxbbbbyyhwawiwjjj"))  # MATOKEO: "6/19"
+
+
+# length test str split
+def find_short(s):
+    # Split the string into words and find the shortest length
+    return min(len(word) for word in s.split())
+
+# Example usage
+print(find_short("Bitcoin takes over the world"))  # matokeo: 3
+# the shortest length is identified and result iko kwa matokeo//
