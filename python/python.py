@@ -70,4 +70,13 @@ print(dig_pow(89, 1))  # Output: 1
 print(dig_pow(92, 1))  # Output: -1
 print(dig_pow(695, 2)) # Output: 2
 
-   
+# ERRORS TEST ABCD
+def printer_error(s):
+    # Count characters that are outside 'a' to 'm'
+    error_count = sum(1 for char in s if char not in "abcdefghijklm")
+    
+    # Return result as a fraction
+    return f"{error_count}/{len(s)}"  # Ensure proper indentation!
+
+# Example usage
+print(printer_error("aaaxbbbbyyhwawiwjjj"))  # MATOKEO: "6/19"
