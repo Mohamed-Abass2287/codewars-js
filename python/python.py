@@ -89,4 +89,3 @@ def find_short(s):
 
 # Example usage
 print(find_short("Bitcoin takes over the world"))  # matokeo: 3
-# the shortest length is identified and result iko kwa matokeo//
