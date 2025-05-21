@@ -97,3 +97,12 @@ def build_string(*args):
 print(build_string("Cheese", "Milk", "Chocolate"))  # "I like Cheese, Milk, Chocolate!"
 print(build_string("Cheese", "Milk"))  # "I like Cheese, Milk!"
 
+
+# nums return
+def move_zeros(lst):
+    return [num for num in lst if num != 0] + [0] * lst.count(0)
+
+# Example usage:
+print(move_zeros([0, 1, 0, 3, 12]))  # Output: [1, 3, 12, 0, 0]
+
+
