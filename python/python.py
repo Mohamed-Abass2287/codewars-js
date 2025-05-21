@@ -89,3 +89,11 @@ def find_short(s):
 
 # Example usage
 print(find_short("Bitcoin takes over the world"))  # matokeo: 3
+
+# build str
+def build_string(*args):
+    return f"I like {', '.join(args)}!"
+
+print(build_string("Cheese", "Milk", "Chocolate"))  # "I like Cheese, Milk, Chocolate!"
+print(build_string("Cheese", "Milk"))  # "I like Cheese, Milk!"
+
