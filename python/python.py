@@ -105,4 +105,12 @@ def move_zeros(lst):
 # Example usage:///
 print(move_zeros([0, 1, 0, 3, 12]))  # Output: [1, 3, 12, 0, 0]
 
+# narcissistic//return false
+def narcissistic(value):
+    return value == sum(int(digit) ** len(str(value)) for digit in str(value))
+
+# Example usage:
+print(narcissistic(153))  # True
+print(narcissistic(9474)) # True
+print(narcissistic(123))  # False
 
