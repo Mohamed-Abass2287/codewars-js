@@ -90,7 +90,7 @@ def find_short(s):
 # Example usage
 print(find_short("Bitcoin takes over the world"))  # matokeo: 3
 
-# build str
+# build str///////////////////
 def build_string(*args):
     return f"I like {', '.join(args)}!"
 
@@ -98,11 +98,11 @@ print(build_string("Cheese", "Milk", "Chocolate"))  # "I like Cheese, Milk, Choc
 print(build_string("Cheese", "Milk"))  # "I like Cheese, Milk!"
 
 
-# nums return
+# nums return/////////////////
 def move_zeros(lst):
     return [num for num in lst if num != 0] + [0] * lst.count(0)
 
-# Example usage:
+# Example usage:///
 print(move_zeros([0, 1, 0, 3, 12]))  # Output: [1, 3, 12, 0, 0]
 
 
